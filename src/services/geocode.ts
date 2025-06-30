@@ -1,4 +1,4 @@
-import type { GeocodingResult, WeatherForecast } from '../types';
+import type { GeocodingResult } from '../types';
 
 const PROXY_BASE_URL = 'http://localhost:3001';
 
