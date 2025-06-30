@@ -62,6 +62,12 @@ const App = () => {
           </div>
         )}
 
+        {!loading && !error && !forecasts?.length && (
+          <div className="alert alert-danger mx-auto">
+            No forecast data available for this location
+          </div>
+        )}
+
         {!loading && !error && forecasts.length > 0 && (
           <ForecastList forecasts={forecasts} location={location} />
         )}
