@@ -53,7 +53,7 @@ const App = () => {
       </header>
 
       <main className="flex-grow-1 p-4 d-flex flex-column gap-4">
-        <AddressForm onAddressSubmit={handleAddressSubmit} />
+        <AddressForm onAddressSubmit={handleAddressSubmit} loading={loading} />
 
         {loading && <div className="alert alert-primary mx-auto">Loading...</div>}
 
