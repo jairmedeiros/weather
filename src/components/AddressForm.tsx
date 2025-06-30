@@ -63,7 +63,7 @@ const AddressForm = ({ onAddressSubmit, loading }: AddressFormProps) => {
           className="btn btn-primary w-100"
           disabled={loading || !address.trim()}
         >
-          {loading ? 'Loading...' : 'Get Forecast'}
+          {loading ? 'Loading' : 'Get Forecast'}
         </button>
       </form>
     </div>
