@@ -1,8 +1,9 @@
 import { useState } from "react";
 import AddressForm from "./components/AddressForm";
 import type { ForecastPeriod } from "./types";
-import { geocodeAddress, getWeatherForecast } from "./services/geocode";
+import { geocodeAddress } from "./services/geocode";
 import ForecastList from "./components/ForecastList";
+import { getWeatherForecast } from "./services/weather";
 
 const App = () => {
   const [forecasts, setForecasts] = useState<ForecastPeriod[]>([]);
