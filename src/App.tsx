@@ -1,18 +1,8 @@
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="d-flex flex-column min-vh-100">
+      <header className="bg-primary text-white p-4 text-center shadow-sm">
+        <h1 className="m-0 fw-bold">Weather Forecast App</h1>
       </header>
     </div>
   );
