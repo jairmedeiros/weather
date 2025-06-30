@@ -72,6 +72,11 @@ const App = () => {
           <ForecastList forecasts={forecasts} location={location} />
         )}
       </main>
+
+      <footer className="bg-dark text-white p-4 text-center mt-5">
+        <p className="mb-1 small">Weather data provided by the U.S. National Weather Service</p>
+        <p className="mb-0 small">Geocoding provided by the U.S. Census Bureau</p>
+      </footer>
     </div>
   );
 }
